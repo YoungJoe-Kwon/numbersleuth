@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-D-q-hSuD.js","./dist-BB0IEui2.js"])))=>i.map(i=>d[i]);
+import{o as e}from"./dist-BB0IEui2.js";import{o as t}from"./index-DUFAaoH7.js";var n=e(`Preferences`,{web:()=>t(()=>import(`./web-D-q-hSuD.js`).then(e=>new e.PreferencesWeb),__vite__mapDeps([0,1]),import.meta.url)});export{n as Preferences};

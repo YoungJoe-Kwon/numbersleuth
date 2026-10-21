@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>숫자 탐정 · Number Sleuth</title>
+    <meta name="description" content="숫자 사이에 숨은 규칙을 찾는 숫자 퍼즐. 레벨을 하나씩 올려요. A number-logic puzzle, one level at a time." />
+    <meta name="theme-color" content="#fbfbf6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1c2925" media="(prefers-color-scheme: dark)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="숫자 탐정" />
+    <meta property="og:title" content="숫자 탐정 · Number Sleuth" />
+    <meta property="og:description" content="숫자 사이에 숨은 규칙을 찾아요. 앱 없이 바로 풀어 보세요." />
+    <meta property="og:type" content="website" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <script type="module" crossorigin src="./assets/index-DUFAaoH7.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/dist-BB0IEui2.js">
+    <link rel="modulepreload" crossorigin href="./assets/config-BOczGFzY.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-ZVhSP0uB.css">
+      <meta property="og:url" content="https://youngjoe-kwon.github.io/numbersleuth/" />
+    <meta property="og:image" content="https://youngjoe-kwon.github.io/numbersleuth/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="숫자 탐정 · Number Sleuth: 숫자 사이에 숨은 규칙을 찾는 숫자 퍼즐" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://youngjoe-kwon.github.io/numbersleuth/" />
+  </head>
+  <body>
+    <!-- 어두운 테마(칠판)에서 펜 표시와 도장을 분필 선처럼 거칠게 만드는 필터. styles.css의 --chalk-filter가 가리킨다. -->
+    <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute">
+      <filter id="chalk" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="grain" />
+        <feDisplacementMap in="SourceGraphic" in2="grain" scale="1.8" xChannelSelector="R" yChannelSelector="G" result="rough" />
+        <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2 1.85" result="dust" />
+        <feComposite in="rough" in2="dust" operator="in" />
+      </filter>
+    </svg>
+    <div id="app"><p class="boot">…</p></div>
+    <noscript>이 앱은 JavaScript가 필요해요. This app needs JavaScript.</noscript>
+  </body>
+</html>
